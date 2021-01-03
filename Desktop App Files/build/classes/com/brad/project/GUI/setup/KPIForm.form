@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.JButton" name="ResetButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="TitleTxt" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="PreviousButton" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="NameTxt0" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                                  <Component id="SubKPITxt0" alignment="0" pref="96" max="32767" attributes="0"/>
+                                  <Component id="ValueTxt0" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="36" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="SubKPI0" max="32767" attributes="0"/>
+                                  <Component id="KPIName0" alignment="0" pref="210" max="32767" attributes="0"/>
+                                  <Component id="Value0" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="NameTxt3" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                                  <Component id="SubKPITxt3" alignment="0" pref="96" max="32767" attributes="0"/>
+                                  <Component id="ValueTxt3" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="36" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="SubKPI3" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                  <Component id="KPIName3" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                  <Component id="Value3" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="RemoveKPI" alignment="0" pref="326" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="NameTxt6" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                                  <Component id="SubKPITxt6" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="ValueTxt6" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="SubKPI6" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                  <Component id="KPIName6" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                  <Component id="Value6" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="SubKPITxt1" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="ValueTxt1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="NameTxt1" alignment="0" pref="86" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="SubKPI1" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="KPIName1" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="Value1" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="38" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="SubKPITxt2" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="ValueTxt2" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="NameTxt2" alignment="0" pref="86" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="SubKPI2" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="KPIName2" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="Value2" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="NameTxt4" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                                          <Component id="SubKPITxt4" alignment="0" pref="96" max="32767" attributes="0"/>
+                                          <Component id="ValueTxt4" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="SubKPI4" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="KPIName4" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="Value4" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="SubKPITxt5" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="ValueTxt5" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="NameTxt5" alignment="0" pref="86" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="SubKPI5" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="KPIName5" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="Value5" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="SubKPITxt10" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                          <Component id="NameTxt10" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                                          <Component id="ValueTxt10" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="SubKPI10" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="KPIName10" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="Value10" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="SubKPITxt11" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                          <Component id="NameTxt11" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                                          <Component id="ValueTxt11" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="SubKPI11" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="KPIName11" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="Value11" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="SubKPITxt7" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="ValueTxt7" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="NameTxt7" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="SubKPI7" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="KPIName7" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="Value7" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="NameTxt8" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                                          <Component id="SubKPITxt8" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                          <Component id="ValueTxt8" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="SubKPI8" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="KPIName8" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="Value8" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="356" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="NextButton" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="AddKPI" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="SubKPITxt9" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                          <Component id="NameTxt9" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                          <Component id="ValueTxt9" min="-2" pref="98" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="SubKPI9" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                          <Component id="KPIName9" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                          <Component id="Value9" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TitleTxt" min="-2" pref="58" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt0" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName0" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ValueTxt0" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Value0" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SubKPITxt0" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="SubKPI0" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt2" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName2" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ValueTxt2" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Value2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SubKPITxt2" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="SubKPI2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt1" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName1" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ValueTxt1" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Value1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SubKPITxt1" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="SubKPI1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NameTxt3" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="KPIName3" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ValueTxt3" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Value3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="SubKPITxt3" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="SubKPI3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NameTxt4" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="KPIName4" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ValueTxt4" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Value4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="SubKPITxt4" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="SubKPI4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt5" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName5" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ValueTxt5" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Value5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SubKPITxt5" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="SubKPI5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NameTxt7" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="KPIName7" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ValueTxt7" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Value7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="SubKPITxt7" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="SubKPI7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NameTxt6" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="KPIName6" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ValueTxt6" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Value6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="SubKPITxt6" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="SubKPI6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt8" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName8" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ValueTxt8" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Value8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SubKPITxt8" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="SubKPI8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt9" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName9" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ValueTxt9" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Value9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SubKPITxt9" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="SubKPI9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt10" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName10" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ValueTxt10" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Value10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SubKPITxt10" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="SubKPI10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt11" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName11" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ValueTxt11" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Value11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SubKPITxt11" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="SubKPI11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="RemoveKPI" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="AddKPI" min="-2" pref="56" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="NextButton" pref="56" max="32767" attributes="0"/>
+                  <Component id="PreviousButton" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="TitleTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="48" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="&lt;TYPE&gt; KPI Setup (Up to 12).."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="NextButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Next &gt;"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NextButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value0ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="PreviousButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt; Previous"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PreviousButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AddKPI">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add KPI +"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddKPIActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="RemoveKPI">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="- Remove Latest KPI"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RemoveKPIActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value10ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueTxt11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Value11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value%"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Value11ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SubKPITxt11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total SubKPIs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SubKPI11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="filler1" max="32767" attributes="0"/>
+                  <Component id="TitleTxt" pref="1012" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="PreviousButton" max="32767" attributes="0"/>
+                              <Component id="RemoveSubKPI" pref="326" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="NameTxt0" min="-2" pref="86" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="KPIName0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="MathsTxt0" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="Maths0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="TypeTxt0" min="-2" pref="40" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Unit0" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="ValueRadio0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="Attach0" max="32767" attributes="0"/>
+                                      <Component id="ShowBox0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="NameTxt1" min="-2" pref="86" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="KPIName1" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="MathsTxt1" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="Maths1" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="TypeTxt1" min="-2" pref="40" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="Unit1" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="ValueRadio1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="Attach1" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="ShowBox1" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="NameTxt4" min="-2" pref="86" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="KPIName4" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="MathsTxt4" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="Maths4" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="TypeTxt4" min="-2" pref="40" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="Unit4" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="ValueRadio4" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="Attach4" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="ShowBox4" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="NameTxt7" min="-2" pref="86" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="KPIName7" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="MathsTxt7" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="Maths7" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="TypeTxt7" min="-2" pref="40" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="Unit7" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="ValueRadio7" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="Attach7" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="ShowBox7" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="NameTxt10" min="-2" pref="86" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="KPIName10" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="MathsTxt10" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="Maths10" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="TypeTxt10" min="-2" pref="40" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="Unit10" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="ValueRadio10" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="Attach10" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="ShowBox10" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="NameTxt2" min="-2" pref="86" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="KPIName2" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="MathsTxt2" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="Maths2" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="TypeTxt2" min="-2" pref="40" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="Unit2" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="ValueRadio2" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="Attach2" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="ShowBox2" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="ReseetButton" max="32767" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="NextButton" min="-2" pref="325" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="AddSubKPI" min="-2" pref="325" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="NameTxt3" min="-2" pref="86" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="KPIName3" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="MathsTxt3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="Maths3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="TypeTxt3" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Unit3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ValueRadio3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Attach3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="ShowBox3" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="NameTxt5" min="-2" pref="86" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="KPIName5" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="MathsTxt5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="Maths5" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="TypeTxt5" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Unit5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ValueRadio5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Attach5" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="ShowBox5" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="NameTxt6" min="-2" pref="86" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="KPIName6" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="MathsTxt6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="Maths6" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="TypeTxt6" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Unit6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ValueRadio6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Attach6" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="ShowBox6" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="NameTxt8" min="-2" pref="86" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="KPIName8" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="MathsTxt8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="Maths8" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="TypeTxt8" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Unit8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ValueRadio8" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Attach8" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="ShowBox8" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="NameTxt9" min="-2" pref="86" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="KPIName9" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="TypeTxt9" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Unit9" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ValueRadio9" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="MathsTxt9" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="Maths9" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Attach9" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="ShowBox9" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="NameTxt11" min="-2" pref="86" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="KPIName11" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="MathsTxt11" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="Maths11" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="TypeTxt11" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="Unit11" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ValueRadio11" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Attach11" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="ShowBox11" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="TitleTxt" min="-2" pref="58" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="NameTxt0" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="KPIName0" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="TypeTxt0" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="Unit0" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ValueRadio0" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Attach0" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="MathsTxt0" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="Maths0" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ShowBox0" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="NameTxt2" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="KPIName2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="TypeTxt2" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="Unit2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ValueRadio2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Attach2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="MathsTxt2" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="Maths2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ShowBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt1" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TypeTxt1" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Unit1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ValueRadio1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Attach1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MathsTxt1" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Maths1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ShowBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NameTxt3" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="KPIName3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="TypeTxt3" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Unit3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ValueRadio3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Attach3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MathsTxt3" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Maths3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ShowBox3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NameTxt5" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="KPIName5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="TypeTxt5" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Unit5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ValueRadio5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Attach5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MathsTxt5" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Maths5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ShowBox5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt4" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TypeTxt4" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Unit4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ValueRadio4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Attach4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MathsTxt4" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Maths4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ShowBox4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NameTxt6" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="KPIName6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="TypeTxt6" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Unit6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ValueRadio6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Attach6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MathsTxt6" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Maths6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ShowBox6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NameTxt8" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="KPIName8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="TypeTxt8" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Unit8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ValueRadio8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Attach8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MathsTxt8" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Maths8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ShowBox8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt7" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TypeTxt7" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Unit7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ValueRadio7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Attach7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MathsTxt7" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Maths7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ShowBox7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NameTxt10" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="KPIName10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TypeTxt10" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Unit10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ValueRadio10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Attach10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MathsTxt10" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Maths10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ShowBox10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NameTxt9" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="KPIName9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="TypeTxt9" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Unit9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ValueRadio9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Attach9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MathsTxt9" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Maths9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ShowBox9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NameTxt11" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="KPIName11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="TypeTxt11" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Unit11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ValueRadio11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Attach11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MathsTxt11" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="Maths11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ShowBox11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="filler1" min="-2" pref="92" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="AddSubKPI" alignment="1" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="RemoveSubKPI" alignment="1" min="-2" pref="56" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PreviousButton" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="NextButton" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Component id="ReseetButton" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="TitleTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="48" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Sub KPI Setup (Up to 12).."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="PreviousButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt; Previous"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PreviousButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="NextButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Next &gt;"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NextButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="RemoveSubKPI">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="- Remove Latest SubSKPI"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="actionCommand" type="java.lang.String" value="- Remove Latest SubKPI"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RemoveSubKPIActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AddSubKPI">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add SubKPI +"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddSubKPIActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ReseetButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ReseetButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach0ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="KPIName8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach10ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MathsTxt11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maths:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameTxt9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="KPIName9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KPI Name 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ShowBox11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ValueRadio11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value (&#xa3;)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Maths10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multiply by 10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeTxt9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Attach11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attach. (%)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Attach11ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Unit10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unit (x)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Unit10ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.Box$Filler" name="filler1">
+    </Component>
+  </SubComponents>
+</Form>

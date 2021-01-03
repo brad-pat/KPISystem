@@ -1,0 +1,96 @@
+## YAML Template.
+---
+company-name: "Telefonica"
+tracking-type: "advanced"
+pi_ip: "http://81.110.252.31/"
+track-store: false
+track-individually: false
+---
+kpis:
+    new_gsv:
+        kpi_value: 45
+        #Type if for general tracking, leave as null if using general
+        type: null
+        sub-kpis:
+            new_handset:
+                type: "value"
+                maths: "*1.4"
+                show: false
+            new_simo:
+                type: "value"
+                maths: "0"
+                show: false
+            new_business_ex_vat:
+                type: "value"
+                maths: "*1.2"
+                show: true
+            new_tablet:
+                type: "unit"
+                show: true
+    upgrade_gsv:
+        kpi_value: 35
+        #Type if for general tracking, leave as null if using general
+        type: null
+        sub-kpis:
+            upg_handset:
+                type: "value"
+                maths: "*1.4"
+                show: false
+            upg_simo:
+                type: "value"
+                maths: "0"
+                show: false
+            upg_business_ex_vat:
+                type: "value"
+                maths: "*1.2"
+                show: true
+            upg_tablet:
+                type: "unit"
+                show: true
+    prepay_gsv:
+        kpi_value: 10
+        sub-kpis:
+            prepay_customer:
+                type: "value"
+                maths: "*13.5"
+                show: false
+    accessories:
+        kpi_value: 5
+        sub-kpis:
+            accessories_exvat:
+                type: "value"
+                maths: "*0.8"
+                show: false
+    apple_watch:
+        kpi_value: 5
+        sub-kpis:
+            watches:
+                type: "unit"
+                show: false
+---
+users:
+    bradley.patrick@telefonica.com:
+        firstname: Bradley
+        lastname: Patrick
+        contracted_hours: 12
+        overtime: 0
+        role: advisor
+        manager: false
+    ian.bell@telefonica.com:
+        firstname: Ian
+        lastname: Bell
+        role: store_leader
+        contracted_hours: 38
+        overtime: 0
+        manager: true
+---
+store-settings:
+    time-scales-to-track:
+        - daily
+        - weekly
+        - quarterly
+---
+individual-settings:
+    time-scales-to-track:
+        - weekly
+        - quarterly

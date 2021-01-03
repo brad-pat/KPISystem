@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/personal_tracker_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Tracker"
+                android:textSize="35dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                />
+
+            <ImageView
+                android:id="@+id/refreshbutton"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/refresh" />
+        </RelativeLayout>
+        <GridLayout
+            android:columnOrderPreserved="false"
+            android:columnCount="1"
+            android:rowCount="6"
+            android:alignmentMode="alignMargins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar0title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar0details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar1title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar1details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar2title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar2details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar3title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar3details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar4title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar4details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar5title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar5details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar6title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar6details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar7title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar7details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar8title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar8details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar9title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar9details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar10title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar10details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bar11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/bar11title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KPI_NAME"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/bar11details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000/£000 - 000 To Do"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#193C67"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
